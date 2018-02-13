@@ -100,7 +100,7 @@ function pointInBounds(point, bounds) {
 $("#search").on('keyup', function(e){
     if(e.keyCode === 13){
 			var query = $("#search").val().replace(' ', '+');
-			var key = "&key=AIzaSyCZBUXlJTya934fLCVMwtZZ_UfyYpyx6_8"
+			var key = "&key=AIzaSyDg74o6k_T3wh-ZNkgolyGtEMf1JqNkZn4"
 			var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + query + key
 			$.get(
 				url,
